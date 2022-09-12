@@ -1,0 +1,24 @@
+@mixin buttonLook() {
+  background: $borderInputColorFocused;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10px 24px;
+  color: white;
+  text-transform: capitalize ;
+
+  &:hover,
+  &:active {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), $borderInputColorFocused ;
+  }
+  &:focus {
+    background: $borderInputColorFocused;
+  }
+  &:disabled {
+    color: white;
+    background: rgba(59, 122, 243, 0.4);
+  }
+}
+
+@mixin buttonPosition() {
+  margin-top: 30px;
+}

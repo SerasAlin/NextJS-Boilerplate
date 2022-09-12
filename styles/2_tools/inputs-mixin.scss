@@ -1,0 +1,39 @@
+@mixin fieldSize($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin fieldLook() {
+    background: $bgInputColor;
+    border: 1px solid $borderInputColorInactive;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 16px;
+
+    &:hover,
+    &:active {
+        border: 1px solid $borderInputColorActive;
+    }
+    &:focus {
+        border: 1px solid $borderInputColorFocused
+    }
+}
+
+@mixin fieldErrorLook() {
+    background: $bgInputColor;
+    border: 1px solid $borderErrorInputColorActive;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 16px;
+
+    &:hover,
+    &:active {
+        border: 1px solid $borderInputColorActive;
+    }
+    &:focus {
+        border: 1px solid $borderInputColorFocused
+    }
+}
+
+
+

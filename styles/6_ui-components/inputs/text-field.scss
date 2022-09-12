@@ -1,0 +1,26 @@
+.text-field {
+    input {
+        @include fieldSize($fieldWidth, $fieldHeight);
+        @include fieldLook();
+    }
+}
+
+.text-field-login {
+    input {
+        @include fieldSize($loginFieldWidth, $fieldHeight);
+        @include fieldLook();
+    }
+}
+
+.text-field-login-error {
+    input {
+        @include fieldSize($loginFieldWidth, $fieldHeight);
+        @include fieldErrorLook();
+    }
+}
+
+#password-icon {
+    position: absolute;
+    right: 10px;
+    color: black;
+}

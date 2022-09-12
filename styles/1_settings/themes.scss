@@ -1,0 +1,27 @@
+/* ---------- TEXT FIELD INPUT COLORS START---------- */
+// inactive
+$borderInputColorInactive: $greyInactiveColor;
+$borderInputColorActive: $greyActiveColor;
+$borderInputColorFocused: $focusedBlueColor;
+$bgInputColor: $whiteColor;
+
+$tabHoverColor: $veryGrayLightColor;
+
+//buttons
+$buttonColor: $greenColor;
+$buttonColorHover: $greenHoverColor;
+$buttonColorDisabled: $greenDisabledColor;
+
+$searchBackgroundColor: $grayColor;
+$buttonBorderColor: $grayLightColor;
+$avatarColor: $blueColor;
+
+// error
+$borderErrorInputColorActive: $errorRedColor;
+
+// sizes
+$fieldWidth: 265px;
+$fieldHeight: 40px;
+$loginFieldWidth: 400px;
+$textAreaHeight: 150px;
+/* ---------- TEXT FIELD INPUT COLORS END ---------- */

@@ -1,0 +1,29 @@
+.error-content {
+  color: $errorRedColor;
+  margin-left: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  font-style: normal;
+  align-items: center;
+  display: flex;
+}
+
+.error-message-icon {
+  width: 20px;
+  margin-right: 5px;
+  color: $errorRedColor;
+}
+
+.error-login-wrapper {
+  @include fieldSize($loginFieldWidth, $fieldHeight);
+  @include errorLook();
+  @include errorPosition();
+}
+
+.label-and-error-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%
+}
+

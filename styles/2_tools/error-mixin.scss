@@ -1,0 +1,11 @@
+@mixin errorLook() {
+  background: $searchBackgroundColor;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+@mixin errorPosition() {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
